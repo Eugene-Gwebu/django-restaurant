@@ -27,9 +27,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'django-insecure-p!$b*r5$qsb-m8grii*)9@teucq_p^&1nnn0s=#$kz)-bed$*s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True 
+DEBUG = False 
 
-ALLOWED_HOSTS = ["8000-eugene-gwebu-django-rest-go6cy1yrl4.us1.codeanyapp.com",
+ALLOWED_HOSTS = ["8000-eugenegwebu-djangoresta-mh7thvxtbj9.ws-eu114.gitpod.io",
 '.herokuapp.com']
 
 
@@ -155,6 +155,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.codeanyapp.com",
+    "https://*.gitpod.io/",
     "https://*.herokuapp.com"
 ]
